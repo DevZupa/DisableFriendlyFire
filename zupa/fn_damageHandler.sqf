@@ -31,7 +31,7 @@ if( isNil "_enemySide")then{
 _enemySide = east;
 };
 
-diag_log ("DAMAGE: player hit by " + typeOf _source + " in " + _hit + " with " + _ammo + " for " + str(_damage) + " kind  " kindOf  );
+diag_log ("DAMAGE: player hit by " + typeOf _source + " in " + _hit + " with " + _ammo + " for " + str(_damage)   );
 
 if((isPlayer _unit) && 
 (!(_source == _unit)) && 
